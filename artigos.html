@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  header {
+    background-color:black;
+    padding: 5px;
+}
+
+header h1 {
+    margin: 0%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+  border-radius: 21%;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    background:white;
+  border-radius: 4%;
+  padding: 0%;
+}
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+}
+footer {
+      background-color: #333;
+      color: white;
+      width: 100%;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .main-content {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .book {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-top: 10px;
+      margin: 10px;
+      width: 300px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+      border: 1px solid #ddd;
+      max-height: 500px; /* Defina a altura máxima desejada */
+      overflow: hidden; /* Oculta o conteúdo que ultrapassa a altura */
+    }
+
+    .book:hover {
+      transform: scale(1.05);
+    }
+
+    .book img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .book h2 {
+      margin-bottom: 10px;
+      font-size: 1.3em;
+      color: #333;
+    }
+
+    .description {
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #4CAF50;
+    }
+
+    .download-btn {
+      
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+      width: 200px;
+      text-align: center;
+      transition: background-color 0.3s ease-in-out;
+      align-center: center;
+      justify-content: center;
+    }
+
+    .download-btn:hover {
+      background-color: #45a049;
+    }
+      .book img{
+          width: 300px;
+          height: 200px;
+          }
+
+          span{
+
+            color: #00FF00;
+            font-weight: bold;
+            padding: 10px;
+          }
+       
+  </style>
+  <title>artigos</title>
+</head>
+<body>
+
+ <header>
+      <h1 style="color: white"><span>Digital<br> Information</span></h1>
+        <nav>
+            <ul>
+                <li><a href='Inicio.html'>Inicio</a></li>
+                <li><a href='artigos.html'>Artigos</a></li>
+                <li><a href="Cursos.html">Cursos</a></li>
+                <li><a href="#">Noticias</a></li>
+            </ul>
+        </nav><p>Enoque Carlos</p>
+        </header>
+
+  <section class="main-content">
+      <div class="book">
+      <img src="imagens/android.jpg" alt="Android phone">
+      <h2>Android Phone</h2>
+        <p class="description">Entenda como são as c.</p>
+      <p class="price" style="color: red">Indisponivel</p>
+      <a class="download-btn" href="https://wa.me/244922729630?text=[ RESERVAR ACESSO AO LIVRO *OComo dominar programação*,CÓDIGO: 1121 ]">Reservar</a>
+    </div>
+      <div class="book">
+      <img src="imagens/mente.jpeg" alt="A mente humana 1.0">
+      <h2>A mente Humana 1.0</h2>
+       <p class="description">Entenda como a mente humana funciona e como você pode usa-la.</p>
+      <br>
+      <p class="price">Disponivel<br>100% Gratuito</p>
+
+      <a class="download-btn" href="#" target="_blank" download>Baixar</a>
+    </div>
+    <div class="book">
+      <img src="imagens/security.jpg" alt="Ciber security">
+      <h2>Segurança digital 1.0</h2>
+      <p class="description">Domine a forma de como você pode proteger-se de ataques Ciberneticos e ajudar outros a fazer o mesmo.</p>
+      <p class="price">Disponivel<br>100% Gratuito</p>
+      <a class="download-btn" href="#" target="_blank" download>Baixar</a>
+    </div>
+      
+    <div class="book">
+      <img src="imagens/termux.png" alt="Termux">
+      <h2>Termux</h2>
+      <p class="description"> O Livro que ajudou muitas pessoas a iniciar a programar usando um celular, e linguagens Simples.</p>
+      <p class="price">Disponivel</p>
+      <p class="price" style="color: red">40% de desconto</p>
+      <a class="download-btn" href="#" target="_blank" download>Obter</a>
+    </div>
+        <div class="book">
+      <img src="imagens/androidd.jpg" alt="Secret code's">
+      <h2>Codigos secretos para Android`S</h2>
+      <p class="description">Analise mais de 50 codigos secretos utilizados em um Android .</p>
+      <p class="price">Disponivel<br>100% Gratuito</p>
+      <a class="download-btn" href="#" target="_blank" download>Baixar</a>
+    </div>
+            <div class="book">
+      <img src="imagens/termux.jpg" alt="Termux hacking">
+      <h2>Termux Hacking</h2>
+        <p class="description">Entenda os gatilhos por detrás do hacking, invadir redes e mídias soccias.
+          <br>   <br>
+Disponivel penas para fins educacionais.      </p>
+      <p class="price" style="color: red">Indisponivel</p>
+      <a class="download-btn" href="https://wa.me/244922729630"?text=[ RESERVAR ACESSO AO LIVRO *Termux hacking*,CÓDIGO: 0021 ] >Reservar</a>
+    </div>
+    <!-- Adicione mais livros conforme necessário -->
+
+  </section>
+<style>
+            .option a{
+
+                color: white;
+            }
+
+            .li{
+
+                margin-top: 6px;
+            }
+            
+            
+        </style>
+        <footer style="background-color: #000; color: #00FF00; margin-top: 100px; padding: 0px; text-align: center; display: flex;">
+    <div class="option">
+        <h2>Explore</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li class='li'><a href='inicio.html'>Inicio</a></li>
+            <li class='li'><a href="Cursos.html">Cursos</a></li>
+            <li class='li'><a href="artigos.html">Artigos</a></li>
+          <li class="li"><a href="#">Noticias</a></li>
+            <!-- Adicione mais opções aqui -->
+        </ul>
+    </div>
+                <div class="option" style="margin-left: 100px;">
+        <h2>Redes Socias</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li class='li'><a href="#">facebook</a></li>
+            <li class='li'><a href="https://wa.me/244922729630?text=Olá%C3%%2C%20gostaria%20de%20saber%20como%20funciona%20o%20Treinamento%20Digital%20Ingormation." target="_blank">whatsapp</a></li>
+          <li class='li'><a href="#">Instagram</a>
+        </li>
+          <li class='li'><a href="#">Sobre mim</a></li>
+            <!-- Adicione mais opções aqui -->
+        </ul>
+    </div>
+
+</footer>
+</body>
+</body>
+</html>
